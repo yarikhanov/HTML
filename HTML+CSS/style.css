@@ -1,0 +1,75 @@
+body {
+	background: whitesmoke;
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+}
+.headline {
+	width: 100%;
+	display: flex;
+	background: blue;
+}
+.news  {
+	width: 70%;
+	font-weight: 600;
+	color: white;
+}
+.button {
+	display: flex;
+	width: 30%;
+	margin-left: 70% ;
+	padding: 25px;
+}
+.button > button {
+	border: none;
+	background: blue;
+	color: white;
+}
+.page {
+	margin-top: 10px;
+	display: flex;
+	width: 100%;
+}
+.login {
+	width: 25%;
+}
+.maininfo {
+	width: 50%;
+
+}
+.tablica {
+	margin-left: 70px;
+	width: 25%;
+}
+td {
+	border: 1px solid black;
+	padding: 5px;
+	 
+}
+tr:nth-child(-n+2) 
+{background: green;}
+tr:nth-child(5) 
+{background: red;}
+th {
+	background: black;
+	color: white;
+}
+
+.bluewrite {
+	color: blue;
+	font-weight: 600;
+}
+.image img {
+	width: 100%;
+}
+.login > button {
+margin-top: 20px;
+background: green;
+border: none;
+}
+ a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
+

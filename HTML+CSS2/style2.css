@@ -1,0 +1,65 @@
+body {
+	background: whitesmoke;
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+}
+.headline {
+	width: 100%;
+	display: flex;
+	background: maroon;
+}
+.allnews  {
+	width: 70%;
+	font-weight: 600;
+	color: white;
+}
+.button {
+	display: flex;
+	width: 30%;
+	margin-left: 70% ;
+	padding: 25px;
+}
+.button > button {
+	border: none;
+	background: maroon;
+	color: white;
+}
+.mainnews {
+	display: flex;
+	background: skyblue;
+	margin-top: 20px;
+	width: 100%;
+}
+.image img {
+width: 600px;
+height: 350px;
+padding: 15px;
+}
+.latestnews {
+	display: flex;
+	width: 100%;
+}
+.news {
+	width: 25%;
+}
+.news img {
+	width: 350px;
+	height: 150px;
+
+	margin-top: 20px;
+}
+.news button{
+	border: none;
+	background: maroon;
+	color: white;
+}
+.latestnews div {
+	border: 1px solid gray;
+	margin: 20px;
+}
+.zagolovok  {
+	text-align: center;
+}
+
+
+
