@@ -1,0 +1,123 @@
+body {
+	background: whitesmoke;
+	font-family: Tahoma, sans-serif;
+	margin: 0;
+}
+.upline {
+	width: 100%;
+	display: flex;
+	background-color: darkblue;
+	margin: 0px;
+}
+.facebook {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	font-weight: 700;
+	color: white;
+	margin: 2px 10px;
+
+}
+.logout {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	margin: 2px 20px;
+}
+.logout  button {
+	border: none;
+	background-color: darkblue;
+	color: gray;
+}
+.mainpage {
+	display: flex;
+	width: 100%;
+	margin: 5px ;
+}
+.avatar {
+	border: 1px solid gray;
+	border-width: 1px 1px 0.5px 1px;
+}
+.leftsidepage img {
+	width: 100%;
+}
+
+.leftsidepage {
+	width: 30%;
+	margin: 5px;
+}
+
+.leftsidepage a {
+	text-decoration: none;
+}
+.middlesidepage {
+	width: 50%;
+	margin: 0px 20px 0px 20px;
+}
+
+.bold {
+	margin: 0px;
+	font-weight: 700;
+	padding: 5px;
+}
+.middlesidepage img {
+	width: 100%;
+}
+.middlesidepage button {
+	background-color: darkblue;
+	color: white;
+	text-decoration: none;
+}
+
+
+#edit {
+	padding: 0px 5px;
+}
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid gray;
+	border-width: 1px 1px 0.5px 1px;
+
+}
+
+.info a {
+	width: 100%;
+	padding: 5px;
+	border: 2px black solid;
+	border-width: 1px 0px;
+}
+
+.rightsidepage {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.rightsidepage li {
+	list-style-type: none;
+	border: 1px solid gray;
+}
+.horizontal {
+	display: flex;
+	width: 50%;
+	margin: 20px;
+}
+.haha{
+	width: 30%;
+}
+.haha img {
+	border-radius: 50%;
+	width: 100%;
+}
+.text {
+	width: 60%;
+	margin-left: 30px;
+}
+.text h3 {
+	font-size: 30px;
+}
+.remove {
+	width: 10%;
+}
+
+
